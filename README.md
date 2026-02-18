@@ -2,7 +2,7 @@
 
 ### **Business Problem: The "Silent" Multi-Million Dollar Drain**
 
-![Executive Summary](
+![Executive Summary](https://github.com/nawwarah-analyst/supply_chain_risk_analysis/blob/main/power_bi/dashboard_screenshot/executive_summary.png)
 
 Unpredictable supplier lead times are more than just logistics delays—they are **financial liabilities**. When lead times fluctuate (Volatility), the company is forced to hold excess safety stock or face stock-outs, both of which lead to direct capital loss.
 
