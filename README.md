@@ -61,7 +61,7 @@ By using this dashboard, the procurement team can:
 
 ### **Repo Navigation**
 
-* `/Python_Scripts`: Volatility modeling and data cleaning.
-* `/SQL_Queries`: BigQuery views and Star Schema architecture.
-* `/Dashboards`: Power BI `.pbix` files and screenshots.
+* `/python_scripts.ipynb`: Volatility modeling and data cleaning.
+* `/sql_queries.sql`: BigQuery views and Star Schema architecture.
+* `/dashboard.pbix`: Power BI `.pbix` files and screenshots.
 * `/Documentation`: Step-by-step technical guide (Coming Soon).
