@@ -59,7 +59,7 @@ This project implements a full procurement risk intelligence pipeline:
 
 ### Dashboard Preview
 
-[![Executive Summary](power_bi/dashboard_screenshot/executive_summary.png)](power_bi/dashboard_screenshot/executive_summary.png)
+[![Executive Summary](power_bi/dashboard_screenshot/strategic_risk_overview.png)](power_bi/dashboard_screenshot/strategic_risk_overview.png)
 
 ---
 
@@ -70,10 +70,41 @@ This project implements a full procurement risk intelligence pipeline:
 | Total Portfolio Value | $25.29M |
 | **Value at Risk (VaR)** | **$22.43M** |
 | Risk Exposure % | **88.69%** |
+| Avg Volatility Index | 0.43 (threshold for High = 0.35) |
+| Avg Actual Lead Time | 9.47 days |
 | Orders with Disruptions | 514 of 1,000 (51.4%) |
-| Categories in Critical Status | Electronics, Pharma |
+| Categories in Critical Status | All 5 — Electronics, Food, Machinery, Pharma, Textiles |
 
 > 88.69% of total procurement spend is tied to High Volatility suppliers. In a healthy supply chain, this figure typically sits below 30%.
+
+---
+
+### Key Findings
+
+**1. There is no safe category — all five are in Critical Exposure**
+
+The business problem asked: *which categories need immediate intervention?*
+The answer is all of them. Every product category — Electronics, Food, Machinery, Pharma, and Textiles — carries a 🔴 CRITICAL EXPOSURE status. This is not a localised problem. It is a portfolio-wide structural risk.
+
+**2. $22.43M out of $25.29M has no reliable delivery guarantee**
+
+88.2% of all orders (882 out of 1,000) are placed with High risk suppliers. Only 11.8% sit with Medium risk suppliers. There are **zero Low risk suppliers** in this portfolio. The company has no reliable anchor to fall back on if High risk suppliers falter simultaneously.
+
+**3. The volatility problem is consistent — not seasonal**
+
+The Quarterly Risk Trend shows High risk spend dominating every quarter from Q1 to Q4 2023 with no meaningful improvement. This is not a spike or a temporary disruption. The elevated risk is embedded in how the supply base is structured.
+
+**4. The average supplier is already above the danger threshold**
+
+The portfolio average Volatility Index is **0.43** — well above the 0.35 threshold that triggers a High risk classification. This means the typical supplier in this portfolio is already in the danger zone, not just the outliers.
+
+**5. The highest-risk suppliers are spread across all categories**
+
+The Supplier Audit List shows the top exposed suppliers span every category — S9 Textiles ($430K at risk), S7 Electronics ($374K), S4 Electronics ($354K), S24 Pharma ($334K). There is no single category to fix. The intervention needs to be portfolio-wide.
+
+**6. Shipping mode does not resolve the lead time problem**
+
+The Logistics Efficiency chart shows all four shipping modes — Sea, Road, Rail, and Air — averaging between 8–10 days actual lead time. Switching modes alone will not fix delivery unpredictability. The root cause is supplier-side volatility, not logistics choice.
 
 ---
 
